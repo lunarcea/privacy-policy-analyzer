@@ -51,35 +51,41 @@ This project provides a suite of tools to gather and analyze mobile app data, in
    cd app-data-toolkit
    
 2. Install required dependencies:
+   ```bash
    pip install -r requirements.txt
    
 3. Download and configure WebDriver for your browser:
-   # Example for Chrome
+   ```bash
     wget https://chromedriver.storage.googleapis.com/X.XX/chromedriver_linux64.zip
+   
     unzip chromedriver_linux64.zip
+   
     chmod +x chromedriver
+   
     mv chromedriver /usr/local/bin/
 
 4. Set up your API keys in the configuration file:
+   ```bash
    cp config.example.py config.py
     # Edit config.py with your API keys
 
 ## Usage
-Google Play Store Data Collection
-python main.py --app-id com.example.app
+1. Google Play Store Data Collection
+   ```bash
+   python main.py --app-id com.example.app
 
-Historical Data Collection
-# Collect historical data from Wayback Machine
-python wayback.py --app-id com.example.app
+2. Historical Data Collection
+   ```bash
+   python wayback.py --app-id com.example.app
 
-Data Conversion
-# Convert JSON data to CSV
-python jsontocsv.py data.json
-
-Excel Data Combination
-# Combine multiple Excel files
-python combine_xlsx.py --dir data_directory
-
+3. Data Conversion
+  ```bash
+   python jsontocsv.py data.json
+````
+4. Excel Data Combination
+ ```bash
+   python combine_xlsx.py --dir data_directory
+````
 ## File Descriptions
 - auto_app_data_sw.py: Automated app data collection using Selenium
 
