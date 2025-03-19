@@ -45,17 +45,6 @@ The Privacy Policy Analyzer project provides a suite of tools to help researcher
 - Selenium WebDriver
 - Chrome/Firefox browser
 
-## Required Python Packages
-- selenium>=4.0.0
-- beautifulsoup4>=4.10.0
-- requests>=2.26.0
-- pandas>=1.3.3
-- openpyxl>=3.0.9
-- simplejson>=3.17.6
-- python-dateutil>=2.8.2
-- PyYAML>=6.0
-- ruamel.yaml>=0.17.21
-
 ## Required Node.js Packages
 - google-play-scraper (v9.1.1+)
 
