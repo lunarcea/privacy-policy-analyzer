@@ -1,0 +1,30 @@
+{
+  "name": "google-play-scraper",
+  "version": "1.0.0",
+  "description": "A tool for scraping and analyzing data from Google Play Store apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/google-play-scraper.git"
+  },
+  "keywords": [
+    "google",
+    "play",
+    "store",
+    "scraper",
+    "app",
+    "analytics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/google-play-scraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/google-play-scraper#readme",
+  "dependencies": {
+    "google-play-scraper": "^9.1.1"
+  }
+}
