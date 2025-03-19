@@ -48,6 +48,7 @@ It also includes optional integration with SimilarWeb API for extended app analy
 
 ## Project Structure
 google-play-scraper/
+
 ├── node/
 
 │ ├── gplay_app_overview.js # Retrieves app overview information
