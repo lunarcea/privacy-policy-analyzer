@@ -108,7 +108,18 @@ This project provides a suite of tools to gather and analyze mobile app data, in
 - main.py: Main application entry point
 
 - wayback.py: Wayback Machine archive retrieval tool
-
+- 
+# Requirement
+- selenium>=4.0.0
+- beautifulsoup4>=4.10.0
+- requests>=2.26.0
+- pandas>=1.3.3
+- openpyxl>=3.0.9
+- simplejson>=3.17.6
+- python-dateutil>=2.8.2
+- PyYAML>=6.0
+- ruamel.yaml>=0.17.21
+  
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
