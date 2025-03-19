@@ -48,20 +48,35 @@ It also includes optional integration with SimilarWeb API for extended app analy
 
 ## Project Structure
 google-play-scraper/
+
 ├── python/
+
 │ ├── get_google_reviews.py # Main script for retrieving Google Play reviews
+
 │ ├── gplay.py # Alternative script for Google Play data
+
 │ ├── main.py # Script with SimilarWeb API integration
+
 │ └── test.py # Test script
+
 ├── node/
+
 │ ├── gplay_app_overview.js # Retrieves app overview information
+
 │ ├── gplay_data_safety.js # Retrieves app data safety information
+
 │ ├── gplay_dev.js # Retrieves developer information
+
 │ ├── gplay_permissions.js # Retrieves app permissions
+
 │ └── gplay_reviews.js # Retrieves app reviews
+
 ├── sample_data/
+
 │ └── sample_app_ids.csv # Sample CSV with app IDs
+
 ├── package.json # Node.js package configuration
+
 └── README.md # This file
 
 
