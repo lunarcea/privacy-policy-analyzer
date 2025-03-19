@@ -31,20 +31,19 @@ google-play-scraper (v9.1.1+)
 Installation
 
 Clone this repository:
-git clone https://github.com/yourusername/google-play-scraper.git
+
+Copygit clone https://github.com/yourusername/google-play-scraper.git
 cd google-play-scraper
 
-
 Install Python dependencies:
-pip install requests ruamel.yaml python-dateutil
 
+Copypip install requests ruamel.yaml python-dateutil
 
 Install Node.js dependencies:
-npm install
 
-
+Copynpm install
 Project Structure
-google-play-scraper/
+Copygoogle-play-scraper/
 ├── python/
 │   ├── get_google_reviews.py       # Main script for retrieving Google Play reviews
 │   ├── gplay.py                    # Alternative script for Google Play data
@@ -56,33 +55,36 @@ google-play-scraper/
 │   ├── gplay_dev.js                # Retrieves developer information
 │   ├── gplay_permissions.js        # Retrieves app permissions
 │   └── gplay_reviews.js            # Retrieves app reviews
+├── sample_data/
+│   └── sample_app_ids.csv          # Sample CSV with app IDs
 ├── package.json                    # Node.js package configuration
 └── README.md                       # This file
-
-
 Usage
 Retrieving App Reviews
 
 Create a CSV file with a list of app IDs you want to scrape (one per line)
 Run the review scraper:
-python python/get_google_reviews.py
 
+Copypython python/get_google_reviews.py
 The script will create a directory named 0_reviews and save CSV files containing the reviews for each app.
-
 Retrieving App Information
 The gplay.py script provides functionality to get basic app information:
-python/gplay.py
-
-
+Copypython python/gplay.py
 SimilarWeb API Integration
 For extended app analytics, the main.py script provides integration with SimilarWeb API.
 You'll need to provide your own API key in the script.
-python/main.py
-
+Copypython python/main.py
 Configuration
--Update the API key in main.py if you're using SimilarWeb API
--Modify the input CSV file path in the respective script to point to your list of app IDs
 
+Update the API key in main.py if you're using SimilarWeb API
+Modify the input CSV file path in the respective script to point to your list of app IDs
+
+Example Data Format
+Your app IDs CSV should be formatted like this:
+csvCopyapp_id,category
+com.whatsapp,Social
+com.instagram.android,Social
+com.google.android.youtube,Entertainment
 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 License
