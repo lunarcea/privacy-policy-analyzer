@@ -65,6 +65,10 @@ google-play-scraper/
 └── README.md # This file
 
 
+
+
+
+
 ## Usage
 1. Retrieving App Reviews
 2. Create a CSV file with a list of app IDs you want to scrape (one per line).
