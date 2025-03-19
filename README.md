@@ -71,10 +71,6 @@ google-play-scraper/
 
 │ └── gplay_reviews.js # Retrieves app reviews
 
-├── sample_data/
-
-│ └── sample_app_ids.csv # Sample CSV with app IDs
-
 ├── package.json # Node.js package configuration
 
 └── README.md # This file
